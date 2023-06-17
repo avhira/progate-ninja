@@ -1,0 +1,58 @@
+/* tablet */
+@media (max-width: 1000px) {
+  header a {
+    font-size: 20px;
+  }
+  .header-content a {
+    font-size: 15px;
+  }
+}
+/* hp */
+@media (max-width: 670px) {
+  header {
+    padding-left: 30px;
+  }
+  header .logo {
+    font-size: 18px;
+    letter-spacing: 5px;
+  }
+  .header-content {
+    display: none;
+  }
+
+  .main-content h1 {
+    font-size: 50px;
+  }
+  .main-content p {
+    font-size: 30px;
+  }
+  .about-wrap {
+    padding: 80px 35px;
+    text-align: justify;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
+  .projek-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .projek-item p {
+    margin-top: 20px;
+  }
+
+  input,
+  textarea,
+  .submit {
+    width: 80%;
+  }
+
+  footer {
+    padding: 30px;
+  }
+  .footer-logo {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+}
